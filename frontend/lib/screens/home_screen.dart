@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor : Colors.orange,
+      backgroundColor : Colors.deepOrange,
       body : Padding(
         padding: const EdgeInsets.only(right: 20),
         child: Column(
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(30),
                   ),
                   child: GestureDetector(
-                    onTap:(){
+                    onTap:() {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
